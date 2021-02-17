@@ -1,1 +1,1 @@
-# la_colline
+# Bienvenue sur le site de La Colline !
