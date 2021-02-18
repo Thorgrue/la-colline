@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!-- Pour Activités + pour Réservation + pour Contact -->
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="">
+    {% endif %}
+    <div class=""></div>
+    <div class="">
+      <div class="">
+        <div class="">
+          <div class="">
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <span class="">{{ page.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="">
+    <div class="">
+      <div class="">
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
